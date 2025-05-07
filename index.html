@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Notes Wallah</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      transition: background 0.3s, color 0.3s;
+      background: white;
+      color: black;
+      padding: 20px;
+    }
+    .dark-mode {
+      background: #121212;
+      color: white;
+    }
+    button {
+      padding: 8px 16px;
+      margin-top: 10px;
+    }
+    .note {
+      margin: 10px 0;
+    }
+    a {
+      color: blue;
+    }
+  </style>
+</head>
+<body>
+  <h1>📚 Welcome to Notes Wallah</h1>
+  <p>Download notes for all classes in PDF format below:</p>
+  
+  <div class="note">
+    <a href="notes/class11-business-ch1.pdf" download>📥 Class 11 Business Studies - Chapter 1</a>
+  </div>
+
+  <button onclick="toggleMode()">🌗 Toggle Light/Dark Mode</button>
+
+  <h2>📬 Send Your Queries</h2>
+  <p>Email: <a href="mailto:raghavbansal7039@gmail.com">raghavbansal7039@gmail.com</a></p>
+  <p>Instagram: <a href="https://instagram.com/bansal_raghav_007" target="_blank">@bansal_raghav_007</a></p>
+
+  <script>
+    function toggleMode() {
+      document.body.classList.toggle("dark-mode");
+    }
+  </script>
+</body>
+</html>
